@@ -13,3 +13,4 @@ def test_model_on_noisy_data():
     mse = mean_squared_error(y3, predictions)
     print(f"Mean Squared Error (MSE): {mse}")  # Вывод MSE в консоль
     assert mse < 0.5, "Model performance is not satisfactory"
+

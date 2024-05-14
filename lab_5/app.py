@@ -23,6 +23,7 @@ plt.plot(x, predictions, color='red')
 plt.title('Linear Regression')
 plt.show()
 
+
 # Оценка модели
 mse = mean_squared_error(y1, predictions)
 print(f'Mean Squared Error: {mse}')
